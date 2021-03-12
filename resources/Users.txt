@@ -1,0 +1,6 @@
+ehfk56,ad,1,ADMIN
+jfhs8jh,man,1,MANAGER
+oo1,reg,qwe,REGULAR
+26b6,oooooo,999999,REGULAR
+e34f30cc-e544-4bc0-8a3e-2698d0eb8092,oooooooo,opipoi,REGULAR
+c71027c4-58c0-4c92-9f2c-7e71c0a26adf,hhh,fdf,REGULAR
