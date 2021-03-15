@@ -39,6 +39,7 @@ public class TicketService {
       if (ticket.getId().equals(ticketId)) {
         ticket.setUserId(userId);
         ticket.setAvailable(false);
+        LogService.addLoggedAction("User " +userId+" chose "+ ticket.getPlaceNumber() );
         FileService.updateTickets(tickets);
         return ticket;
       }
@@ -52,6 +53,8 @@ public class TicketService {
       if (ticket.getId().equals(ticketId)) {
         ticket.setUserId(null);
         ticket.setAvailable(true);
+        LogService.addLoggedAction("Ticket " +ticket.getFilmUuid()+ticket.getUserId()+ticket.getPlaceNumber()
+            + " was returned.");
         FileService.updateTickets(tickets);
       }
     }

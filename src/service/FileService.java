@@ -93,10 +93,46 @@ public class FileService {
         ("resources/Tickets.txt"))) {
       for (Ticket ticket : tickets) {
         String s = ticket.toString();
-       bufferedWriter.write(s+ "\n");
+        bufferedWriter.write(s + "\n");
+      }
+    } catch (IOException e) {
+      e.printStackTrace();
+    }
+  }
+
+  public static void addFilm(Film film) {
+    try (BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter
+        ("resources/Films.txt", true))) {
+      String s = film.toString();
+      bufferedWriter.write("\n" + s);
+
+    } catch (IOException e) {
+      e.printStackTrace();
+    }
+  }
+
+  public static void updateFilms(List<Film> films) {
+    try (BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter
+        ("resources/Films.txt"))) {
+      for (Film film : films) {
+        String s = film.toString();
+        bufferedWriter.write(s + "\n");
+      }
+    } catch (IOException e) {
+      e.printStackTrace();
+    }
+  }
+
+  public static void updateUsers(List<User> users) {
+    try (BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter
+        ("resources/Users.txt"))) {
+      for (User user : users) {
+        String s = user.toString();
+        bufferedWriter.write(s + "\n");
       }
     } catch (IOException e) {
       e.printStackTrace();
     }
   }
 }
+

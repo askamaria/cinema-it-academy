@@ -70,6 +70,6 @@ public class Film {
 
   @Override
   public String toString() {
-    return id + "," + filmName + "," + filmTime;
+    return id + "," + filmName + "," + filmTime.format(DateTimeFormatter.ofPattern("dd.MM.yyyy:HH.mm"));
   }
 }
