@@ -49,3 +49,34 @@ User chose the login menu  2021-03-16T02:34:24.788928200
 User reg is logged in. 2021-03-16T02:34:28.947319900
 User reg entered to the main menu  2021-03-16T02:34:28.949314600
 User reg entered to the main menu  2021-03-16T02:34:32.058132100
+User chose the login menu  2021-03-16T03:17:54.143788300
+User reg is logged in. 2021-03-16T03:18:01.865699300
+User reg entered to the main menu  2021-03-16T03:18:01.881870
+User reg entered to the film menu  2021-03-16T03:18:05.017998900
+User reg entered to the byu ticket menu  2021-03-16T03:18:08.014648900
+User exited user film menu 2021-03-16T03:18:11.514807300
+User reg entered to the film menu  2021-03-16T03:18:11.515826900
+User exited user film menu 2021-03-16T03:18:14.230316300
+User reg entered to the main menu  2021-03-16T03:18:14.231231100
+User reg entered to the main menu  2021-03-16T03:18:16.790769200
+User reg entered to the main menu  2021-03-16T03:18:20.046247700
+User exited user main menu 2021-03-16T03:18:24.299409600
+User chose the login menu  2021-03-16T03:18:39.080097100
+User ad is logged in. 2021-03-16T03:18:43.172726800
+Admin entered. 2021-03-16T03:18:43.184736400
+Admin entered to the admin edit film menu. 2021-03-16T03:18:45.817284100
+Manager entered to the manager change film menu. 2021-03-16T03:18:47.484466300
+Manager entered the new film name -1 2021-03-16T03:18:53.407793500
+Manager exited manager change film menu 2021-03-16T03:18:58.309080300
+Manager entered the new film name  2021-03-16T03:18:58.315056400
+Manager entered to the manager change film menu. 2021-03-16T03:18:58.315056400
+Admin entered to the admin edit film menu. 2021-03-16T03:19:01.614050800
+Admin exited admin edit film menu 2021-03-16T03:19:04.011113600
+Admin entered. 2021-03-16T03:19:04.012110
+Admin exited admin menu 2021-03-16T03:19:20.876626800
+User chose the login menu  2021-03-16T03:19:33.147118800
+User man is logged in. 2021-03-16T03:19:38.908104500
+Manager entered. 2021-03-16T03:19:38.908104500
+Manager entered to the manager ticket menu. 2021-03-16T03:19:43.974862500
+User iiiii entered to the return purchased ticket menu  2021-03-16T03:19:52.691211400
+Manager entered to the manager ticket menu. 2021-03-16T03:19:52.692187
