@@ -3,5 +3,4 @@ jfhs8jh,man,�mɺ�d��bդ��,MANAGER
 oo1,reg,�mɺ�d��bդ��,REGULAR
 26b6,oooooo,�mɺ�d��bդ��,REGULAR
 e34f30c,wwww,�mɺ�d��bդ��,REGULAR
-c71027c4,hhh,�mɺ�d��bդ��,REGULAR
-3815d3,iiiii,�mɺ�d��bդ��,REGULAR
+c71027c4,One,�mɺ�d��bդ��,ADMIN

@@ -123,6 +123,7 @@ public class ManagerMenu {
           if (!str.isEmpty()) {
             try {
               film.setFilmTime(str);
+              dateExitFlag = -1;
             } catch (DateTimeParseException e) {
               System.err.println("The format of the entered date is incorrect.");
             }
@@ -130,10 +131,11 @@ public class ManagerMenu {
             dateExitFlag = -1;
             LogService.addLoggedAction("Manager exited manager change film menu");
           }
-          FilmService.updateFilm(film);
-          LogService.addLoggedAction("Manager entered the new film name " +str);
-          System.out.println("Film was changed.");
         }
+        FilmService.updateFilm(film);
+        LogService.addLoggedAction("Manager entered the new film name " +str);
+        System.out.println("Film was changed.");
+
       }
     }
   }
